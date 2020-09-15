@@ -1,0 +1,145 @@
+html{
+	font-family: monospace, sans-serif;
+}
+
+/*  Entire website */
+body {
+	background-image: url("images/space-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 15px;
+	color: whitesmoke;
+
+}
+/* Header */
+header img{
+	margin-top: 8px;
+	border-radius: 100px;
+	width: 400px;
+	border: 2px solid rgba(125, 130, 126, .8);
+	opacity: 90%;
+}
+
+header{
+	background-color: rgba(125, 130, 126, .5);
+	text-align: center;
+	border-style: initial;
+	border-radius: 15px;
+	border-color: rgba(120, 125, 120,);
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-size: 45px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+/* Main */
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(125, 130, 126, .5);
+	border-style: initial;
+	border-radius: 15px;
+	padding: 8px 8px;
+}
+
+main img{
+	max-width: 100%;
+	border-radius: 15px;
+}
+
+h2{
+	font-size: 40px;
+	color: white;
+}
+
+
+p.main-img-caption{
+	font-size: 12px;
+	margin-top: 0;
+	opacity: 80%;
+}
+
+li {
+	margin: 12px;
+}
+
+p.job-history-caption {
+	font-size: 12px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	opacity: 80%;
+}
+
+a{
+	text-align: center;
+	display: block;
+	border-style: initial;
+	border-radius: 15px;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	font-size: 40px;
+	width: 250px;
+	text-decoration: none;
+	color: white;
+	background: rgba(0,0,0,.5);
+}
+
+a:hover{
+	text-align: center;
+	border-style: initial;
+	border-radius: 15px;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	font-size: 40px;
+	opacity: 50%;
+	background: black;
+	color: white;
+	border-radius: 15px;
+	width: 250px;
+	}
+
+/* footer */
+footer {
+	
+	background-color: rgba(125, 130, 126, .5);
+	text-align: center;
+	border-style: initial;
+	border-radius: 15px;
+	border-color: rgba(120, 125, 120,);
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+/* contact */
+header.contact {
+	background-color: rgba(125, 130, 126, .5);
+	text-align: center;
+	border-style: initial;
+	border-radius: 15px;
+	border-color: rgba(120, 125, 120,);
+	max-width: 1200px;
+	margin: auto auto;
+	font-size: 100px;
+}
+
+header.contact h1{
+	color: whitesmoke;
+	opacity: 80%;
+}
